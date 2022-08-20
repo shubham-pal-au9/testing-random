@@ -1,0 +1,31 @@
+.display {
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.352);
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom:100px;
+  }
+
+.btndesign{
+    margin-left: 5px;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.btndesign:hover{
+    background-color: rgba(246, 255, 127, 0.712);
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.textDesign{
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+}
