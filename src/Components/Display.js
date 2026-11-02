@@ -5,6 +5,7 @@ function Display() {
     const[state, setState] = useState([]);
     const[todoState, settodoState] = useState(localStorage.getItem('Name'));
     let arr = [];
+
     
 
 const todoFunn = (e) => {
@@ -20,7 +21,8 @@ const handleSubmit = () => {
     <li>{number}</li>
     );
   
-  console.log("CheckData:",arr, "loadData")
+  console.log("CheckData:",arr)
+  
   settodoState(listItems)
 }
 
